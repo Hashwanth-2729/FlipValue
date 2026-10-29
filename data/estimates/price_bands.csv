@@ -1,0 +1,32 @@
+model_id,launch_price,new_low,new_high,refurb_low,refurb_high,used_low,used_high,basis
+apple-iphone-11,64900,,,15500,18500,11000,15000,derived: Cashify refurbished price (2026-10-28) and typical used/refurbished ratios; not sold new
+apple-iphone-12,79900,,,19500,23500,15000,19500,derived: Cashify refurbished price (2026-10-28) and typical ratios; not sold new
+apple-iphone-13,79900,47000,50000,30000,35000,24000,30000,derived: Flipkart new price and Cashify refurbished price (2026-10-27) and typical ratios
+apple-iphone-14,79900,55000,60000,32000,37000,27000,33000,derived: Cashify refurbished price (2026-10-28) and typical ratios
+apple-iphone-15,79900,60000,66000,42000,47000,36000,42000,derived: Cashify refurbished price (2026-10-28) and typical ratios
+apple-iphone-15-pro,134900,,,64000,72000,55000,64000,derived: Cashify refurbished price (2026-10-28) and typical ratios; discontinued
+apple-iphone-16,79900,66000,72000,55000,60000,48000,55000,derived: Cashify refurbished price (2026-10-28) and typical ratios
+google-pixel-6a,43999,,,16000,18000,11000,14000,derived: Cashify and Budli refurbished prices (2026-10-27) and typical ratios; not sold new
+google-pixel-7,59999,28000,32000,21000,28000,18000,22000,owner-supplied ranges (2026-10-28)
+google-pixel-7a,43999,28000,30000,19000,24000,13000,18000,owner-supplied ranges (2026-10-28)
+google-pixel-8,75999,37000,39000,29000,32000,23000,28000,owner-supplied ranges (2026-10-28)
+google-pixel-8a,52999,36000,38000,24000,30000,21000,27000,owner-supplied ranges (2026-10-28)
+google-pixel-9,79999,60000,80000,48000,53000,37000,42000,owner-supplied ranges (2026-10-28)
+motorola-edge-40,29999,27500,30500,18000,21000,13000,17000,owner-supplied new price (~29000); refurbished and used derived from Cashify (2026-10-28)
+nothing-phone-2,44999,36000,40000,24000,27000,18000,23000,owner-supplied new price (~38000); refurbished and used derived from Cashify (2026-10-28)
+oneplus-11,56999,38000,45000,28000,32000,25000,30000,owner-supplied new and used (used high capped from 36000 to stay below refurbished); refurbished derived from Cashify
+oneplus-11r,39999,29000,35000,21000,26000,20000,23500,owner-supplied ranges (used high capped from 29000 to stay below refurbished)
+oneplus-12,64999,47000,54000,41000,46000,38000,42000,owner-supplied new and used; refurbished derived from Cashify (2026-10-28)
+oneplus-nord-3,33999,19000,28000,19500,22500,14000,18000,owner-supplied new and refurbished (~21000); used derived
+samsung-galaxy-a54,38999,28500,31500,16000,18500,11000,16000,owner-supplied ranges (new ~30000; refurbished ~17000)
+samsung-galaxy-a55,39999,35000,39000,21500,24500,18000,23000,owner-supplied ranges (new high capped at the launch price; refurbished ~23000)
+samsung-galaxy-s21,69999,,,19000,23000,12000,18000,owner-supplied ranges (refurbished widened to include Budli 18999 seen 2026-10-27); not sold new
+samsung-galaxy-s21-fe,54999,,,18000,19000,9000,15000,owner-supplied ranges; not sold new
+samsung-galaxy-s22,72999,40000,44000,22500,25500,17000,24000,owner-supplied ranges (new ~42000; refurbished ~24000; used high capped from 25000)
+samsung-galaxy-s23,74999,52000,57000,30000,33000,25000,31500,owner-supplied ranges (new ~55000; used 30000-40000 lowered to stay below refurbished)
+samsung-galaxy-s23-fe,59999,40000,55000,25000,28000,18000,26500,owner-supplied ranges (used high capped from 30000)
+samsung-galaxy-s23-ultra,124999,73000,87000,47500,52500,40000,50000,owner-supplied ranges (refurbished ~50000; used 42000-60000 lowered to stay below refurbished)
+samsung-galaxy-s24,74999,50000,61000,32000,37000,28000,34500,owner-supplied new and used (used 35000-50000 lowered to stay below refurbished); refurbished derived from Cashify
+vivo-v29,32999,26000,30000,17500,20500,13000,17500,derived: Cashify refurbished price (2026-10-28) and typical ratios
+xiaomi-redmi-note-12-pro,24999,,,12500,15500,9000,12500,derived: Cashify refurbished price (2026-10-28) and typical ratios; not sold new
+xiaomi-redmi-note-13-pro,25999,20000,23000,14500,17000,11000,14500,derived: Cashify refurbished price (2026-10-28) and typical ratios

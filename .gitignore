@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+# secrets and local configuration
+.env
+.env.*
+!.env.example
+frontend/.env.*
+!frontend/.env.example
+*.key
+*.pem
+service-account*.json
+# local data
+var/
+*.db
+*.db-*
+# build output
+frontend/node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/playwright-report/
+.firebase/
+firebase-debug.log*

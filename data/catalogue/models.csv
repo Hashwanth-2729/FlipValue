@@ -1,0 +1,32 @@
+model_id,manufacturer,name,release_date,storage_gb,aliases,catalogue_source
+samsung-galaxy-s21,Samsung,Galaxy S21,2021-01-29,128|256,SM-G991B|SM-G991B/DS|SM-G991U|Galaxy S21 5G,Manufacturer specifications; curated manually 2026-10-21; re-verify before production
+samsung-galaxy-s23,Samsung,Galaxy S23,2023-02-17,128|256,SM-S911B|SM-S911B/DS|SM-S911U,Manufacturer specifications; curated manually 2026-10-21; re-verify before production
+google-pixel-6a,Google,Pixel 6a,2022-07-28,128,,Manufacturer specifications; curated manually 2026-10-21; re-verify before production
+google-pixel-7,Google,Pixel 7,2022-10-13,128|256,,Manufacturer specifications; curated manually 2026-10-21; re-verify before production
+google-pixel-8,Google,Pixel 8,2023-10-12,128|256,,Manufacturer specifications; curated manually 2026-10-21; re-verify before production
+apple-iphone-13,Apple,iPhone 13,2021-09-24,128|256|512,,Manufacturer specifications; curated manually 2026-10-21; re-verify before production
+apple-iphone-11,Apple,iPhone 11,2019-09-20,64|128|256,,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+apple-iphone-12,Apple,iPhone 12,2020-10-23,64|128|256,,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+apple-iphone-14,Apple,iPhone 14,2022-09-16,128|256|512,,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+apple-iphone-15,Apple,iPhone 15,2023-09-22,128|256|512,,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+apple-iphone-15-pro,Apple,iPhone 15 Pro,2023-09-22,128|256|512|1024,,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+apple-iphone-16,Apple,iPhone 16,2024-09-20,128|256|512,,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+samsung-galaxy-s21-fe,Samsung,Galaxy S21 FE,2022-01-11,128|256,SM-G990B|SM-G990E|Galaxy S21 FE 5G,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+samsung-galaxy-s22,Samsung,Galaxy S22,2022-02-25,128|256,SM-S901B|SM-S901E|Galaxy S22 5G,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+samsung-galaxy-s23-fe,Samsung,Galaxy S23 FE,2023-10-04,128|256,SM-S711B|Galaxy S23 FE 5G,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+samsung-galaxy-s23-ultra,Samsung,Galaxy S23 Ultra,2023-02-17,256|512|1024,SM-S918B|Galaxy S23 Ultra 5G,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+samsung-galaxy-s24,Samsung,Galaxy S24,2024-01-31,128|256|512,SM-S921B|Galaxy S24 5G,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+samsung-galaxy-a54,Samsung,Galaxy A54,2023-03-24,128|256,SM-A546B|SM-A546E|Galaxy A54 5G,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+samsung-galaxy-a55,Samsung,Galaxy A55,2024-03-15,128|256,SM-A556B|SM-A556E|Galaxy A55 5G,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+google-pixel-7a,Google,Pixel 7a,2023-05-11,128,,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+google-pixel-8a,Google,Pixel 8a,2024-05-14,128|256,,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+google-pixel-9,Google,Pixel 9,2024-08-22,128|256,,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+oneplus-11,OnePlus,11,2023-02-14,128|256,OnePlus 11|OnePlus 11 5G,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+oneplus-11r,OnePlus,11R,2023-02-28,128|256,OnePlus 11R|OnePlus 11R 5G,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+oneplus-12,OnePlus,12,2024-01-30,256|512,OnePlus 12,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+oneplus-nord-3,OnePlus,Nord 3,2023-07-15,128|256,Nord 3 5G,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+nothing-phone-2,Nothing,Phone (2),2023-07-21,128|256|512,Phone 2,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+xiaomi-redmi-note-12-pro,Xiaomi,Redmi Note 12 Pro,2023-01-11,128|256,Redmi Note 12 Pro 5G,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+xiaomi-redmi-note-13-pro,Xiaomi,Redmi Note 13 Pro,2024-01-10,128|256|512,Redmi Note 13 Pro 5G,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+motorola-edge-40,Motorola,Edge 40,2023-05-30,256,Moto Edge 40,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production
+vivo-v29,Vivo,V29,2023-10-10,128|256,V29 5G,Public specifications; compiled 2026-10-28 without page-by-page checks; re-verify before production

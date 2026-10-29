@@ -1,0 +1,26 @@
+model_id,manufacturer,model,storage_gb,region,currency,grade,center_price,spread_pct,count
+samsung-galaxy-s21,Samsung,Galaxy S21,128,IN,INR,excellent,26000,12,12
+samsung-galaxy-s21,Samsung,Galaxy S21,128,IN,INR,good,22000,12,12
+samsung-galaxy-s21,Samsung,Galaxy S21,128,IN,INR,fair,18000,12,12
+samsung-galaxy-s21,Samsung,Galaxy S21,128,IN,INR,poor,13000,15,12
+samsung-galaxy-s21,Samsung,Galaxy S21,128,IN,INR,faulty,8000,25,12
+samsung-galaxy-s21,Samsung,Galaxy S21,256,IN,INR,excellent,28500,12,12
+samsung-galaxy-s21,Samsung,Galaxy S21,256,IN,INR,good,24000,12,12
+samsung-galaxy-s21,Samsung,Galaxy S21,256,IN,INR,fair,19500,12,12
+samsung-galaxy-s21,Samsung,Galaxy S21,256,IN,INR,poor,14000,15,12
+samsung-galaxy-s21,Samsung,Galaxy S21,256,IN,INR,faulty,8500,25,12
+samsung-galaxy-s21,Samsung,Galaxy S21,128,US,USD,excellent,260,12,12
+samsung-galaxy-s21,Samsung,Galaxy S21,128,US,USD,good,220,12,12
+samsung-galaxy-s21,Samsung,Galaxy S21,128,US,USD,fair,180,12,12
+samsung-galaxy-s21,Samsung,Galaxy S21,128,US,USD,poor,130,15,12
+samsung-galaxy-s21,Samsung,Galaxy S21,128,US,USD,faulty,80,25,12
+google-pixel-7,Google,Pixel 7,128,IN,INR,excellent,24000,12,12
+google-pixel-7,Google,Pixel 7,128,IN,INR,good,21000,12,12
+google-pixel-7,Google,Pixel 7,128,IN,INR,fair,17500,12,12
+google-pixel-7,Google,Pixel 7,128,IN,INR,poor,12500,15,12
+google-pixel-7,Google,Pixel 7,128,IN,INR,faulty,7500,25,12
+google-pixel-7,Google,Pixel 7,256,IN,INR,good,23500,12,6
+google-pixel-7,Google,Pixel 7,256,IN,INR,faulty,9000,25,6
+google-pixel-6a,Google,Pixel 6a,128,IN,INR,fair,11000,12,12
+google-pixel-6a,Google,Pixel 6a,128,IN,INR,faulty,5000,25,12
+google-pixel-6a,Google,Pixel 6a,128,IN,INR,good,13500,10,2

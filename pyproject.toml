@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flipvalue"
+version = "0.2.0"
+description = "FlipValue: phone resale valuation website, API and FixMyTech integration"
+requires-python = ">=3.11"
+dependencies = ["fastapi>=0.121", "pydantic>=2.11", "uvicorn>=0.30", "sqlalchemy>=2.0", "alembic>=1.13", "httpx>=0.27"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6"]
+postgres = ["psycopg[binary]>=3.2"]
+
+[project.scripts]
+flipvalue = "flipvalue.cli:main"
+
+[tool.setuptools.package-data]
+flipvalue = ["db/migrations/*.py", "db/migrations/*.mako", "db/migrations/versions/*.py"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "tests"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+# FastAPI's Depends/Query/Header defaults are the documented idiom.
+ignore = ["B008"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["flipvalue", "conftest", "test_condition_decision"]

@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "FlipValue: run server",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["flipvalue.app:create_app", "--factory", "--port", "8091"],
+      "cwd": "${workspaceFolder}",
+      "env": { "PYTHONPATH": "${workspaceFolder}/src" },
+      "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "justMyCode": true,
+      "preLaunchTask": "FlipValue: build website"
+    },
+    {
+      "name": "FlipValue: backend tests",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["-q"],
+      "cwd": "${workspaceFolder}",
+      "python": "${workspaceFolder}/.venv/Scripts/python.exe"
+    }
+  ]
+}

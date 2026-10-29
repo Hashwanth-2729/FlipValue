@@ -1,0 +1,21 @@
+# Files NOT uploaded by `gcloud builds submit` (the Docker build then also applies .dockerignore).
+.gcloudignore
+.git
+.gitignore
+.venv/
+.vscode/
+.ruff_cache/
+.pytest_cache/
+**/__pycache__/
+.env
+.env.*
+var/
+*.db
+*.db-*
+frontend/
+tests/
+docs/
+scripts/
+# Anchored: on Windows gcloud matches case-insensitively, so an unanchored "FlipValue/" also drops src/flipvalue/.
+/FlipValue/
+.firebase/

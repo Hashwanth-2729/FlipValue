@@ -1,0 +1,25 @@
+# Only what the API image needs is copied (see Dockerfile); everything else stays out of the build context.
+.git
+.gitignore
+.venv
+.vscode
+.ruff_cache
+.pytest_cache
+**/__pycache__
+*.pyc
+.env
+.env.*
+!.env.example
+var/
+*.db
+*.db-*
+frontend/
+tests/
+docs/
+scripts/
+FlipValue/
+firebase.json
+.firebaserc
+.firebase/
+*.md
+docker-compose.yml

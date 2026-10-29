@@ -1,0 +1,4 @@
+# Container / Cloud Run runtime: the base runtime plus the PostgreSQL driver for Cloud SQL.
+# Tested against PostgreSQL 16.2 with Python 3.13.16 on 2026-10-22 (tests/test_postgres.py).
+-r requirements.txt
+psycopg[binary]==3.3.6

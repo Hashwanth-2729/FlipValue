@@ -1,0 +1,16 @@
+search_model_id,days_ago,title,brand,storage_gb,condition,price_type,price,mrp,seller,seller_type,availability
+samsung-galaxy-s21,0,SAMSUNG Galaxy S21 5G (Phantom Gray 128 GB) (8 GB RAM),Samsung,128,new,new_retail,41990,69999,Fixture seller A,marketplace_seller,in_stock
+samsung-galaxy-s21,0,Samsung Galaxy S21 SM-G991B 128GB Phantom White,Samsung,,new,new_retail,43490,69999,Fixture seller B,retailer,in_stock
+samsung-galaxy-s21,0,SAMSUNG Galaxy S21 5G (Phantom Violet 128 GB),Samsung,128,new,new_retail,44999,,Fixture seller C,marketplace_seller,out_of_stock
+samsung-galaxy-s21,0,Refurbished Samsung Galaxy S21 5G 128 GB - Excellent,Samsung,128,refurbished,refurbished_retail,26499,,Fixture refurbisher,refurbisher,in_stock
+samsung-galaxy-s21,0,Samsung Galaxy S21 (Renewed) 128GB Gray,Samsung,,refurbished,refurbished_retail,24999,,Fixture refurbisher 2,refurbisher,in_stock
+samsung-galaxy-s21,0,Samsung Galaxy S21 Renewed 128 GB - Good,Samsung,128,refurbished,refurbished_retail,23990,,Fixture refurbisher 3,refurbisher,
+samsung-galaxy-s21,0,SAMSUNG Galaxy S21 5G (Phantom Gray 256 GB) (8 GB RAM),Samsung,256,new,new_retail,46990,73999,Fixture seller A,marketplace_seller,in_stock
+samsung-galaxy-s21,0,SAMSUNG Galaxy S21 FE 5G (Graphite 128 GB) (8 GB RAM),Samsung,128,new,new_retail,29999,74999,Fixture seller A,marketplace_seller,in_stock
+samsung-galaxy-s21,3,SAMSUNG Galaxy S21 5G (Phantom Gray 128 GB) (8 GB RAM),Samsung,128,new,new_retail,42990,69999,Fixture seller A,marketplace_seller,in_stock
+samsung-galaxy-s21,3,Samsung Galaxy S21 SM-G991B 128GB Phantom White,Samsung,,new,new_retail,43490,69999,Fixture seller B,retailer,in_stock
+samsung-galaxy-s21,7,SAMSUNG Galaxy S21 5G (Phantom Gray 128 GB) (8 GB RAM),Samsung,128,new,new_retail,44490,69999,Fixture seller A,marketplace_seller,in_stock
+samsung-galaxy-s21,12,SAMSUNG Galaxy S21 5G (Phantom Gray 128 GB) (8 GB RAM),Samsung,128,new,new_retail,45990,69999,Fixture seller A,marketplace_seller,in_stock
+google-pixel-7,0,Google Pixel 7 (Obsidian 128 GB) (8 GB RAM),Google,128,new,new_retail,38999,59999,Fixture seller A,marketplace_seller,in_stock
+google-pixel-7,0,Google Pixel 7a (Charcoal 128 GB) (8 GB RAM),Google,128,new,new_retail,32999,43999,Fixture seller A,marketplace_seller,in_stock
+google-pixel-7,0,Google Pixel 7 Pro (Hazel 128 GB) (12 GB RAM),Google,128,new,new_retail,59999,84999,Fixture seller B,retailer,in_stock

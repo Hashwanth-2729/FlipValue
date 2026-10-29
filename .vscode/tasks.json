@@ -1,0 +1,58 @@
+{
+  "version": "2.0.0",
+  "options": { "env": { "PYTHONPATH": "${workspaceFolder}/src" } },
+  "tasks": [
+    {
+      "label": "FlipValue: start server",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe -m uvicorn flipvalue.app:create_app --factory --port 8091",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "panel": "dedicated" }
+    },
+    {
+      "label": "FlipValue: build website",
+      "type": "shell",
+      "command": "npm --prefix frontend run build",
+      "problemMatcher": []
+    },
+    {
+      "label": "FlipValue: website dev mode (hot reload, port 5173)",
+      "type": "shell",
+      "command": "npm --prefix frontend run dev",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "panel": "dedicated" }
+    },
+    {
+      "label": "FlipValue: first-time setup",
+      "type": "shell",
+      "command": "python -m venv .venv; ${workspaceFolder}/.venv/Scripts/python.exe -m pip install -r requirements-dev.txt; npm --prefix frontend ci; npm --prefix frontend run build; ${workspaceFolder}/.venv/Scripts/python.exe -m flipvalue setup-dev",
+      "problemMatcher": []
+    },
+    {
+      "label": "FlipValue: reset mock data",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe -m flipvalue setup-dev",
+      "problemMatcher": []
+    },
+    {
+      "label": "FlipValue: create admin key",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe -m flipvalue keys create --name me --role admin",
+      "problemMatcher": []
+    },
+    {
+      "label": "FlipValue: create partner key",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe -m flipvalue keys create --name fixmytech --role partner",
+      "problemMatcher": []
+    },
+    {
+      "label": "FlipValue: all tests",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe -m pytest -q; npm --prefix frontend test; cd frontend; npx playwright test",
+      "problemMatcher": []
+    }
+  ]
+}
